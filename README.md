@@ -23,7 +23,7 @@ sudo apt-get install ros-noetic-xacro
 ***ROS Console***
 Open a terminal and enter:
 ```
-roscon
+roscore
 ```
 
 ***On another terminal you can now test RVIZ***
@@ -52,6 +52,8 @@ catkin_create_pkg robot_model_pkg roscpp tf2 geometry_msgs urdf rviz joint_state
 
 Once the environment and packages references are created, you can create the main folders references for ROS URDF and Launch, you've noticed that this model was named **"robot_model_pkg"** you could use any name you want at the catkin_create_pkg sentence described above.
 
+The **"robot_model_pkg"** folder is the main robot model folder besides the different definitions and references required by ROS to generate your model you may also save your RVIZ settings to easily jump back in right where you left it. 
+
 The main folders to start the development inside ***robot_model_pkg***:
 ```
 mkdir urdf
@@ -60,5 +62,27 @@ mkdir launch
 
 The definition is in the urdf folder and the execution parameters are in the launch respectively.
 
-![This is an image to aid in the file definition](/assets/Screenshot%20from%202024-01-08%2012-56-10.png)
+This will give you an idea of the design used for the frame:
+
+![This is an image to aid in the file definition](/assets/4wd_design.png)
+
+
+Once you have your definition and launch file created, you can open a terminal in your main folder location and compile your model:
+```
+catkin_make
+```
+
+After the compilation ends, you may launch ROS with
+```
+roscore
+```
+
+Open another terminal and launch your model with:
+```
+roslaunch robot_model_pkg robot.launch
+```
+
+This is an screenshot of your model in RVIZ:
+
+![This is your model](/assets/rviz.png)
 

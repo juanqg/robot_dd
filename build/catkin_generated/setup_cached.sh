@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ros/source/robot_4wd/robot_dd/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/ros/source/robot_4wd/robot_dd/build'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ros/source/robot_4wd/robot_dd/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ros/source/robot_4wd/robot_dd/src:$ROS_PACKAGE_PATH"
