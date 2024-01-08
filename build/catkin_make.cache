@@ -1,2 +1,2 @@
 robot_model_pkg
--DCATKIN_DEVEL_PREFIX=/home/ros/source/robot_4wd/robot_dd/devel -DCMAKE_INSTALL_PREFIX=/home/ros/source/robot_4wd/robot_dd/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/ros/source/robot_dd/devel -DCMAKE_INSTALL_PREFIX=/home/ros/source/robot_dd/install -G Unix Makefiles

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/source/robot_4wd/robot_dd/src/robot_model_pkg
+# Install script for directory: /home/ros/source/robot_dd/src/robot_model_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/source/robot_4wd/robot_dd/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/source/robot_dd/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/source/robot_4wd/robot_dd/build/robot_model_pkg/catkin_generated/installspace/robot_model_pkg.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/source/robot_dd/build/robot_model_pkg/catkin_generated/installspace/robot_model_pkg.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model_pkg/cmake" TYPE FILE FILES
-    "/home/ros/source/robot_4wd/robot_dd/build/robot_model_pkg/catkin_generated/installspace/robot_model_pkgConfig.cmake"
-    "/home/ros/source/robot_4wd/robot_dd/build/robot_model_pkg/catkin_generated/installspace/robot_model_pkgConfig-version.cmake"
+    "/home/ros/source/robot_dd/build/robot_model_pkg/catkin_generated/installspace/robot_model_pkgConfig.cmake"
+    "/home/ros/source/robot_dd/build/robot_model_pkg/catkin_generated/installspace/robot_model_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model_pkg" TYPE FILE FILES "/home/ros/source/robot_4wd/robot_dd/src/robot_model_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_model_pkg" TYPE FILE FILES "/home/ros/source/robot_dd/src/robot_model_pkg/package.xml")
 endif()
 

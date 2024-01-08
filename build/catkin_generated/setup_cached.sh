@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/ros/source/robot_4wd/robot_dd/build'
+export PWD='/home/ros/source/robot_dd/build'

@@ -67,14 +67,14 @@ set(robot_model_pkg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robot_model_pkg_SOURCE_PREFIX /home/ros/source/robot_4wd/robot_dd/src/robot_model_pkg)
-  set(robot_model_pkg_DEVEL_PREFIX /home/ros/source/robot_4wd/robot_dd/devel)
+  set(robot_model_pkg_SOURCE_PREFIX /home/ros/source/robot_dd/src/robot_model_pkg)
+  set(robot_model_pkg_DEVEL_PREFIX /home/ros/source/robot_dd/devel)
   set(robot_model_pkg_INSTALL_PREFIX "")
   set(robot_model_pkg_PREFIX ${robot_model_pkg_DEVEL_PREFIX})
 else()
   set(robot_model_pkg_SOURCE_PREFIX "")
   set(robot_model_pkg_DEVEL_PREFIX "")
-  set(robot_model_pkg_INSTALL_PREFIX /home/ros/source/robot_4wd/robot_dd/install)
+  set(robot_model_pkg_INSTALL_PREFIX /home/ros/source/robot_dd/install)
   set(robot_model_pkg_PREFIX ${robot_model_pkg_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/source/robot_4wd/robot_dd/install/lib;/home/ros/source/robot_4wd/robot_dd/devel/lib;/home/ros/source/robot_dd/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ros/source/robot_dd/install/lib;/home/ros/source/robot_4wd/robot_dd/devel/lib;/home/ros/source/robot_dd/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

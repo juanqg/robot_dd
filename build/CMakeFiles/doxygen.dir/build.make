@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/source/robot_4wd/robot_dd/src
+CMAKE_SOURCE_DIR = /home/ros/source/robot_dd/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/source/robot_4wd/robot_dd/build
+CMAKE_BINARY_DIR = /home/ros/source/robot_dd/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/ros/source/robot_4wd/robot_dd/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/source/robot_4wd/robot_dd/src /home/ros/source/robot_4wd/robot_dd/src /home/ros/source/robot_4wd/robot_dd/build /home/ros/source/robot_4wd/robot_dd/build /home/ros/source/robot_4wd/robot_dd/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/source/robot_dd/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/source/robot_dd/src /home/ros/source/robot_dd/src /home/ros/source/robot_dd/build /home/ros/source/robot_dd/build /home/ros/source/robot_dd/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 
