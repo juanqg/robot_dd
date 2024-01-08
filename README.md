@@ -42,15 +42,13 @@ The development packages were generated using the following command on the src f
 catkin_create_pkg robot_model_pkg roscpp tf2 geometry_msgs urdf rviz joint_state_publisher_gui
 ```
 
-> [!NOTE]
-
 > Below the dependencies for this project:
-> roscpp - cpp and ROS
-> tf2 - Lets the user keep track of multiple coordinate frames over time
-> geometry_msgs - messages for common geometry primitives such as points, vectors and poses.
-> urdf - C++ parser for URDF package
-> rviz - RVIZ
-> joint_state_publisher_gui - Contains a GUI tool for setting and publishing joint state values for a given URDF.
+* roscpp - cpp and ROS
+* tf2 - Lets the user keep track of multiple coordinate frames over time
+* geometry_msgs - messages for common geometry primitives such as points, vectors and poses.
+* urdf - C++ parser for URDF package
+* rviz - RVIZ
+* joint_state_publisher_gui - Contains a GUI tool for setting and publishing joint state values for a given URDF.
 
 Once the environment and packages references are created, you can create the main folders references for ROS URDF and Launch, you've noticed that this model was named **"robot_model_pkg"** you could use any name you want at the catkin_create_pkg sentence described above.
 
