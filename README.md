@@ -52,9 +52,13 @@ catkin_create_pkg robot_model_pkg roscpp tf2 geometry_msgs urdf rviz joint_state
 
 Once the environment and packages references are created, you can create the main folders references for ROS URDF and Launch, you've noticed that this model was named **"robot_model_pkg"** you could use any name you want at the catkin_create_pkg sentence described above.
 
-the main folders to start the development inside ***robot_model_pkg***:
+The main folders to start the development inside ***robot_model_pkg***:
 ```
 mkdir urdf
 mkdir launch
 ```
+
+The definition is in the urdf folder and the execution parameters are in the launch respectively.
+
+[This is an image to aid in the file definition](Screenshot from 2024-01-08 12-56-10.png)
 
