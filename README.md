@@ -60,5 +60,5 @@ mkdir launch
 
 The definition is in the urdf folder and the execution parameters are in the launch respectively.
 
-![This is an image to aid in the file definition](/main/assets/Screenshot%20from%202024-01-08%2012-56-10.png)
+![This is an image to aid in the file definition](/assets/Screenshot%20from%202024-01-08%2012-56-10.png)
 
