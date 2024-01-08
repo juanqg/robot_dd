@@ -5,7 +5,9 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Status1
+        - /RobotModel1
+        - /TF1
+        - /Axes1
       Splitter Ratio: 0.5
     Tree Height: 555
   - Class: rviz/Selection
@@ -133,7 +135,7 @@ Visualization Manager:
       Length: 1
       Name: Axes
       Radius: 0.10000000149011612
-      Reference Frame: <Fixed Frame>
+      Reference Frame: body_link
       Show Trail: false
       Value: true
   Enabled: true
@@ -164,7 +166,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 2.417783498764038
+      Distance: 4.050588607788086
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -180,9 +182,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7403981685638428
+      Pitch: 0.7653981447219849
       Target Frame: <Fixed Frame>
-      Yaw: 6.238588809967041
+      Yaw: 5.4285783767700195
     Saved: ~
 Window Geometry:
   Displays:
@@ -200,5 +202,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1200
-  X: 206
-  Y: 60
+  X: 213
+  Y: 105
